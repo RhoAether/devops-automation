@@ -2,7 +2,7 @@ import requests
 import json
 
 response = requests.get('http://localhost:8000/api/')
-print(f"NetBox Status: {responding.status_code}")
+print(f"NetBox Status: {response.status_code}")
 if response.status_code == 200: 
     print("NetBox is running successfully!")
 else:
