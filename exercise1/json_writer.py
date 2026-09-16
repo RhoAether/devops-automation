@@ -16,5 +16,5 @@ new_device = {
 
 # Write to file
 with open('new_device.json', 'w') as file:
-json.dump(new_device, file, indent=4)
+    json.dump(new_device, file, indent=4)
     print("Device data written to new_device.json")
